@@ -4,14 +4,13 @@
 
 
 /* Fonts */
+
 * {
     font-family: 'Lato', sans-serif;
 }
 
 
 /* shared styles */
-
-
 
 .button {
     background-color: #E55473;
@@ -40,13 +39,9 @@
     text-align: center;
 }
 
-.featured-flower-img {
-    margin: 110px 75px 0px;
-}
-
-
 
 /* header */
+
 .header {
     background-color: rgba(229, 84, 115, 0.10);
     ;
@@ -77,6 +72,7 @@
     padding-left: 97px;
 }
 
+
 /* Main */
 
 .featured-flowers {
@@ -84,12 +80,42 @@
 
 }
 
-.featured-gallery{
+.featured-gallery {
     display: flex;
     align-items: center;
     padding: 48px 240px;
 
 }
+
+.delivery-support-container {
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    margin: 128px 240px;
+    display: flex;
+}
+
+#facilities-img-1 {
+    margin-top: 86px;
+    margin-left: 220px;
+}
+
+#facilities-img-2 {
+    margin-top: 86px;
+    margin-left: 200px;
+}
+
+#facilities-img-3 {
+    margin-top: 86px;
+    margin-left: 140px;
+}
+
+.facilities-title {
+    padding: 24px 90px;
+    font-size: 24px;
+    color: rgba(39, 39, 39, 0.80);
+}
+
 
 /* featured 1 */
 
@@ -114,6 +140,7 @@
 
 }
 
+
 /* featured 2 */
 
 #featured-background-2 {
@@ -135,6 +162,7 @@
     font-size: 24px;
     text-decoration: underline;
 }
+
 
 /* featured 3 */
 
