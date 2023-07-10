@@ -11,13 +11,7 @@
 
 /* shared styles */
 
-.description {
-    font-weight: 400;
-    font-size: 18px;
-    padding-top: 32px;
-    color: rgba(39, 39, 39, 0.60);
-    width: 632px;
-}
+
 
 .button {
     background-color: #E55473;
@@ -31,6 +25,26 @@
 
 }
 
+.title {
+    font-size: 40px;
+    font-weight: 900;
+    color: #272727;
+    text-align: center;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+}
+
+.featured-flower-img {
+    margin: 110px 75px 0px;
+}
+
+
 
 /* header */
 .header {
@@ -39,18 +53,109 @@
     height: 400px;
     display: flex;
     align-items: center;
-    padding: 240px 240px 200px;
+    padding: 240px 200px 200px;
     justify-content: space-around;
 }
 
 .header-title {
     font-weight: 900;
-    font-size: 90px;
+    font-size: 80px;
     color: #272727;
-    width: 770px;
+    width: 730px;
 
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    width: 632px;
 }
 
 .header-image {
     padding-left: 97px;
+}
+
+/* Main */
+
+.featured-flowers {
+    padding-top: 178px;
+
+}
+
+.featured-gellery {
+    display: flex;
+    align-items: center;
+    padding: 48px 240px;
+
+}
+
+/* featured 1 */
+
+#featured-background-1 {
+
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+#featured-img-1 {
+    margin: 110px 75px 0px;
+}
+
+#featured-title-1 {
+    margin: 32px;
+    margin-left: 135px;
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+
+/* featured 2 */
+
+#featured-background-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    margin: 0px 24px;
+}
+
+#featured-img-2 {
+    margin: 117px 47px 51px;
+}
+
+#featured-title-2 {
+    margin: 32px;
+    margin-left: 140px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+/* featured 3 */
+
+#featured-background-3 {
+
+    background-color: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+#featured-img-3 {
+    margin: 67px 75px 0px 75px;
+
+}
+
+#featured-title-3 {
+    margin: 32px;
+    margin-left: 145px;
+    font-size: 24px;
+    text-decoration: underline;
+
 }
