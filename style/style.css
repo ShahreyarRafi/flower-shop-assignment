@@ -21,6 +21,7 @@
     border: none;
     border-radius: 10px;
     margin-top: 32px;
+    
 
 }
 
@@ -115,6 +116,22 @@
     font-size: 24px;
     color: rgba(39, 39, 39, 0.80);
 }
+
+.hot-deal{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot-deal-img{
+    padding-left: 186px;
+}
+
+.center-button{
+    text-align: center;
+}
+
 
 
 /* featured 1 */
