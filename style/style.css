@@ -49,7 +49,7 @@
 
 /* header */
 
-.header-section{
+.header-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +57,6 @@
 
 .header {
     background-color: rgba(229, 84, 115, 0.10);
-    ;
     height: 400px;
     width: 1920px;
     display: flex;
@@ -126,7 +125,6 @@
 
 }
 
-
 /* featured 2 */
 
 #featured-background-2 {
@@ -148,7 +146,6 @@
     font-size: 24px;
     text-decoration: underline;
 }
-
 
 /* featured 3 */
 
@@ -173,6 +170,8 @@
     text-decoration: underline;
 }
 
+
+/* delivery-support-section */
 
 .delivery-support-section {
     display: flex;
@@ -210,9 +209,10 @@
     color: rgba(39, 39, 39, 0.80);
 }
 
+
 /* hot deal */
 
-.hot-deal-section{
+.hot-deal-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,6 +238,7 @@
 .hot-deal-title {
     padding-top: 60px;
 }
+
 
 /* instagram-section */
 
@@ -349,4 +350,3 @@
     justify-content: center;
     align-items: center;
 }
-
