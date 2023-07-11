@@ -38,6 +38,7 @@
     margin-top: 24px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
+    line-height: 30px;
 }
 
 .primary-text-color {
@@ -63,7 +64,7 @@
     font-size: 80px;
     color: #272727;
     width: 730px;
-
+    line-height: normal;
 }
 
 .header-description {
@@ -72,6 +73,7 @@
     margin-top: 32px;
     color: rgba(39, 39, 39, 0.60);
     width: 632px;
+    line-height: 30px;
 }
 
 .header-image {
@@ -238,7 +240,7 @@
     gap: 24px;
 }
 
-.latest-deals-section{
+.latest-deals-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -248,19 +250,19 @@
     background-image: url(../assets/Rectangle\ 9.png);
     height: 449px;
     width: 1440px;
-    display: flex;  
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.subscribe{
+.subscribe {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
 }
 
-.form{
+.form {
     border: none;
     border-radius: 10px;
     width: 700px;
@@ -269,3 +271,48 @@
     padding-left: 16px;
 }
 
+.footer-section {
+    margin-top: 128px;
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    color: #FFFFFF;
+}
+
+.all-rights-reserved {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    margin-top: 32px;
+}
+
+.shop-name {
+    color: #E55473;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.Shop {
+    color: #FFFFFF;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    margin-top: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
