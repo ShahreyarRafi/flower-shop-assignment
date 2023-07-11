@@ -244,6 +244,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 128px;
 }
 
 .latest-deals-container {
@@ -311,8 +312,31 @@
     line-height: 30px;
 }
 
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.map {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding-left: 100px;
+}
+
+.location-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-section-background {
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    width: 1922px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
