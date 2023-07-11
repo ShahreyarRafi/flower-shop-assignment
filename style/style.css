@@ -49,10 +49,17 @@
 
 /* header */
 
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .header {
     background-color: rgba(229, 84, 115, 0.10);
     ;
     height: 400px;
+    width: 1920px;
     display: flex;
     align-items: center;
     padding: 240px 200px 200px;
