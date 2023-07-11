@@ -40,6 +40,11 @@
     text-align: center;
 }
 
+.primary-text-color{
+    color: #E55473;
+}
+
+
 
 /* header */
 
@@ -76,16 +81,24 @@
 
 /* Main */
 
-.featured-flowers {
+.featured-container {
     padding-top: 178px;
 
 }
 
-.featured-gallery {
+.featured-section {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 48px 240px;
+    display: flex;
 
+}
+
+.delivery-support-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .delivery-support-container {
@@ -98,30 +111,32 @@
 
 #facilities-img-1 {
     margin-top: 86px;
-    margin-left: 220px;
+    margin-left: 275px;
 }
 
 #facilities-img-2 {
     margin-top: 86px;
-    margin-left: 200px;
+    margin-left: 260px;
 }
 
 #facilities-img-3 {
     margin-top: 86px;
-    margin-left: 140px;
+    margin-left: 190px;
 }
 
 .facilities-title {
-    padding: 24px 90px;
+    padding-top: 24px;
+    padding-left: 138px;
     font-size: 24px;
     color: rgba(39, 39, 39, 0.80);
 }
 
 .hot-deal{
     background-color: rgba(229, 84, 115, 0.05);
+    height: 620px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .hot-deal-img{
@@ -130,6 +145,10 @@
 
 .center-button{
     text-align: center;
+}
+
+.hot-deal-title{
+    padding-top: 60px;
 }
 
 
@@ -204,3 +223,4 @@
     text-decoration: underline;
 
 }
+
