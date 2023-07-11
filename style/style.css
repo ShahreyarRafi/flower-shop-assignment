@@ -62,15 +62,15 @@
     width: 1920px;
     display: flex;
     align-items: center;
-    padding: 240px 200px 200px;
-    justify-content: space-around;
+    padding-top: 240px;
+    padding-bottom: 200px;
+    justify-content: center;
 }
 
 .header-title {
     font-weight: 900;
     font-size: 80px;
     color: #272727;
-    width: 730px;
     line-height: normal;
 }
 
@@ -79,7 +79,6 @@
     font-size: 18px;
     margin-top: 32px;
     color: rgba(39, 39, 39, 0.60);
-    width: 632px;
     line-height: 30px;
 }
 
