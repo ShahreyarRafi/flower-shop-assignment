@@ -206,9 +206,16 @@
 
 /* hot deal */
 
+.hot-deal-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hot-deal {
     background-color: rgba(229, 84, 115, 0.05);
     height: 620px;
+    width: 1922px;
     display: flex;
     justify-content: center;
     align-items: center;
